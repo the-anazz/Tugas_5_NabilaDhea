@@ -6,8 +6,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cardview_shadow_start_color"
-    tools:context=".forgotpassword">
+    android:background="@drawable/background_gradasi"
+    tools:context=".ForgotPassword">
 
     <TextView
         android:layout_width="wrap_content"
@@ -16,6 +16,7 @@
         android:layout_marginTop="150dp"
         android:layout_centerHorizontal="true"
         android:textSize="28sp"
+        android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,7 +60,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:background="#04450d"
+        android:background="@drawable/rounded_edittext"
         android:hint="Enter ur email "
         android:textColorHint="@color/white"
         android:padding="20sp"
