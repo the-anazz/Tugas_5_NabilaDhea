@@ -11,7 +11,7 @@ class Register : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge() // ✅ Ini sekarang aman
+        enableEdgeToEdge()
         setContentView(R.layout.activity_register)
 
         // Menyesuaikan padding untuk sistem bar saat ada perubahan ukuran layar
